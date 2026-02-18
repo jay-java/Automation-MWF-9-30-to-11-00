@@ -1,0 +1,23 @@
+package core;
+
+public class P002_DataTypes {
+	public static void main(String[] args) {
+//		by this line user will get output in console
+		System.out.println("hello");
+
+		// 1.primitive datatypes
+		byte b = 125;// 1
+		System.out.println(b);
+		short s = 3212;// 2
+		System.out.println(s);
+		int i = 12;// 4
+		System.out.println(i);
+		long l = 12;// 8
+		System.out.println(l);
+
+		float f = 3.246;// 4
+		System.out.println(f);
+		double d = 3.345654;// 8
+		System.out.println(d);
+	}
+}

@@ -1,0 +1,8 @@
+package core;
+
+public class P002_DataTypes {
+	public static void main(String[] args) {
+//		by this line user will get output in console
+		System.out.println("hello");
+	}
+}

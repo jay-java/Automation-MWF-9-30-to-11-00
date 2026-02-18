@@ -1,0 +1,8 @@
+package core;
+
+public class P001_Intro {
+	public static void main(String[] args) {
+		System.out.println("hello testers");
+		System.out.println("hello again");
+	}
+}
