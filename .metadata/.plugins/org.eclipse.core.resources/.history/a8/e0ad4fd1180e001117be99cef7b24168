@@ -1,0 +1,76 @@
+package core;
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		// 1.Arithmetic -> +,-,*,/,%
+		int i = 10;
+		int j = 3;
+		System.out.println("value of i = " + i);
+		System.out.println("addition of i and j = " + (i + j));
+		System.out.println(i - j);
+		System.out.println(i * j);
+		System.out.println(i / j);
+		System.out.println(i % j);
+		int k = i + j;
+		System.out.println("k  = " + k);
+		
+		double base = 34.34;
+		double height = 4.5;
+		double areaOfTriangle = (base*height)/2;
+		System.out.println("area of triangle = "+areaOfTriangle);
+
+		double radius = 4.5;
+		double areaOfCircle = Math.PI* radius*radius;
+		System.out.println("area of circle = "+areaOfCircle);
+		
+
+		// 2.Assignment -> =,+=,-=,*=,/=
+		int a = 12;
+		System.out.println("a = " + a);
+
+		a += 10; // a = a+12
+		System.out.println(a);// 22
+
+		int b = 10;
+
+		b += a; // b = b+a
+		System.out.println(b);
+
+		a -= 10; // a = a-10
+		System.out.println(a);
+
+		a *= 2;
+		System.out.println(a);
+
+		a /= 3;
+		System.out.println(a);
+
+		// 3.unary -> ++,--
+		int p = 11;
+		p++; // p = P+1
+		System.out.println(p);
+
+		p--; // p = p-1
+		System.out.println(p);
+
+		// 4.conditional -> >,<.<=,<=,==,!=
+
+		int a1 = 12, b1 = 10;
+		System.out.println(a1 > b1);
+		System.out.println(a1 < b1);
+		System.out.println(a1 >= b1);
+		System.out.println(a1 <= b1);
+		System.out.println(a1 == b1);
+		System.out.println(a1 != b1);
+
+		// 5.logical -> &&, || , !
+		
+		boolean validUser = true;
+		if(validUser) {
+			System.out.println("user is valid");
+		}
+		else {
+			System.out.println("user is not valid");
+		}
+	}
+}

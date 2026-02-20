@@ -1,0 +1,18 @@
+package core;
+public class P004_TypeCasting {
+	public static void main(String[] args) {
+		// 1.implicit(by compiler)
+		int i = 4;
+		System.out.println(i);
+		double d = i;
+		System.out.println(d);
+		
+		// 2.explicit(by user)
+		double d1 = 3.4;
+		int k = (int) d1;
+		System.out.println(k);
+		int a = 10, b = 3;
+		double c = (double)a / (double)b;
+		System.out.println(c);
+	}
+}

@@ -11,6 +11,18 @@ public class P003_Operators {
 		System.out.println(i * j);
 		System.out.println(i / j);
 		System.out.println(i % j);
+		int k = i + j;
+		System.out.println("k  = " + k);
+		
+		double base = 34.34;
+		double height = 4.5;
+		double areaOfTriangle = (base*height)/2;
+		System.out.println("area of triangle = "+areaOfTriangle);
+
+		double radius = 4.5;
+		double areaOfCircle = Math.PI* radius*radius;
+		System.out.println("area of circle = "+areaOfCircle);
+		
 
 		// 2.Assignment -> =,+=,-=,*=,/=
 		int a = 12;
@@ -52,5 +64,13 @@ public class P003_Operators {
 		System.out.println(a1 != b1);
 
 		// 5.logical -> &&, || , !
+		
+		boolean validUser = true;
+		if(!validUser) {
+			System.out.println("user is not valid");
+		}
+		else {
+			System.out.println("user not valid");
+		}
 	}
 }
