@@ -1,0 +1,11 @@
+package core;
+
+public class P006_Loop {
+	public static void main(String[] args) {
+		//1.for loop ->for(initialization;condition;incre/decre){body}
+		
+		//2.while loop -> while(condition){body}
+		//3.do while loop -> do {body} while();
+		//4.for each
+	}
+}
