@@ -1,0 +1,15 @@
+package core;
+
+import java.util.Scanner;
+
+public class P009_UserInput {
+	public static void main(String[] args) {
+		int i=1;
+		System.out.println(i);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a = ");
+		int a = sc.nextInt();
+		System.out.println(a);
+	}
+	
+}

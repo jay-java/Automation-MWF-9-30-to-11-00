@@ -1,0 +1,13 @@
+package core;
+
+class ABC{
+	public void abcClassMethod() {
+		System.out.println("abc class method");
+	}
+}
+public class P008_ClassObjectFunctions {
+	public static void main(String[] args) {
+		System.out.println("main method");
+		
+	}
+}

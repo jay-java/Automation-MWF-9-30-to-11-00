@@ -1,0 +1,34 @@
+package core;
+
+class ABC {
+	// without return type without parameter
+	public void abcClassMethod() {
+		System.out.println("abc class method");
+	}
+
+	// without return type with parameter
+	public void call(double a) {
+		System.out.println("without return type with parameter : " + a);
+	}
+	// with return type without parameter
+	public int getNumber() {
+		System.out.println("with return type without parameter");
+		return 123;
+	}
+	// with return type with parameter
+
+}
+
+public class P008_ClassObjectFunctions {
+	public static void main(String[] args) {
+		System.out.println("main method");
+		ABC a = new ABC();
+		a.abcClassMethod();
+		
+		a.call(456.46);
+		
+		int res = a.getNumber();
+		System.out.println(res);
+		
+	}
+}
