@@ -1,0 +1,27 @@
+package core;
+
+class User{
+	int id;
+	String name;
+	double value;
+	User(){
+		System.out.println("this is default cons");
+	}
+	
+	User(int i){
+		System.out.println("i = "+i);
+	}
+	
+	User(int i,int j){
+		System.out.println("i = "+i+" j = "+j);
+	}
+}
+public class P012_Constructor {
+	public static void main(String[] args) {
+		User u = new User();
+		
+		User u1 = new User(345);
+		
+		User u2 = new User(12, 34);
+	}
+}

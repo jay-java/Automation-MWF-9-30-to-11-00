@@ -1,0 +1,17 @@
+package core;
+
+public class P011_String {
+	public static void main(String[] args) {
+		
+		char c[] = {'j','a','v','a'};
+		System.out.println(c);
+		String s1 ="java";
+		System.out.println(s1);
+		
+		String s = "hello java developers 346465U^%$^";
+		System.out.println(s.length());
+		
+		String s2 = "java";
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;core.P011_Constructor&apos; to &apos;P012_Constructor&apos;&#x0D;&#x0A;- Original project: &apos;CoreJAVA&apos;&#x0D;&#x0A;- Original element: &apos;core.P011_Constructor&apos;&#x0D;&#x0A;- Renamed element: &apos;core.P012_Constructor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;P011_Constructor&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;core{P011_Constructor.java[P011_Constructor" matchStrategy="1" name="P012_Constructor" qualified="false" references="true" similarDeclarations="false" stamp="1773377389300" textual="false" version="1.0"/>
+</session>

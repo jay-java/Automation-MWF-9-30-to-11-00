@@ -3,6 +3,7 @@ package core;
 import java.util.Scanner;
 
 class ABC {
+	
 	// without return type without parameter
 	public void abcClassMethod() {
 		System.out.println("abc class method");
