@@ -1,0 +1,46 @@
+package core;
+
+class Student {
+	static {
+	System.out.println("static block in student class");
+	}
+	int roll_no;
+	String name;
+	double per;
+	static String coll_name = "TOPS";
+
+	Student(int roll_no, String name, double per) {
+		this.roll_no = roll_no;
+		this.name = name;
+		this.per = per;
+	}
+
+	public void showStudentInfo() {
+		System.out.println("id = " + roll_no + " name = " + name + " per = " + per + " college name = " + coll_name);
+	}
+	
+	public static void run() {
+		System.out.println("run static in student class");
+	}
+
+}
+
+public class P013_static {
+	static {
+		System.out.println("static block in main method");
+	}
+	public static void main(String[] args) {
+		Student s1 = new Student(1, "java", 56.5);
+		s1.showStudentInfo();
+		Student s2 = new Student(2, "python", 76.5);
+		s2.showStudentInfo();
+		Student s3 = new Student(3, "php", 96.5);
+		s3.showStudentInfo();
+		Student s4 = new Student(4, ".net", 86.5);
+		s4.showStudentInfo();
+		Student s5 = new Student(5, "dart", 66.5);
+		s5.showStudentInfo();
+		
+		Student.run();
+	}
+}

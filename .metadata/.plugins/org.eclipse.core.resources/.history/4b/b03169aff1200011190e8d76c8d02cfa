@@ -1,0 +1,10 @@
+package core;
+
+class Student{
+	
+}
+public class P013_static {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,43 @@
+package core;
+
+class Overload {
+	public void add(int a, int b) {
+		System.out.println(a + b);
+	}
+
+	public void add(int a, int b, int c) {
+		System.out.println(a + b + c);
+	}
+}
+
+class Parent {
+	public void call() {
+		System.out.println("call in parent class");
+	}
+
+	public void show() {
+		System.out.println("show in parent");
+	}
+}
+
+class Child extends Parent {
+	public void call() {
+		super.call();
+		System.out.println("call in child class");
+	}
+
+	public void show() {
+		System.out.println("show in child");
+	}
+}
+
+public class P016_Polymorphism {
+	public static void main(String[] args) {
+		Overload o = new Overload();
+		o.add(12, 340);
+
+		Child c = new Child();
+		c.call();
+		c.show();
+	}
+}
