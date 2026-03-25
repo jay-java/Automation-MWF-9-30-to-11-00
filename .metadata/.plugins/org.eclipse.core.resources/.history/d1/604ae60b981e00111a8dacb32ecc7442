@@ -1,7 +1,0 @@
-package core;
-
-public class P011_Constructor {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,0 +1,28 @@
+package core;
+
+abstract class RBI{
+	abstract public void SA();//abstract method
+	abstract public void PL();
+}
+class SBI extends RBI{
+
+	@Override
+	public void SA() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void PL() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+class JAVA extends RBI{
+	
+}
+public class P017_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

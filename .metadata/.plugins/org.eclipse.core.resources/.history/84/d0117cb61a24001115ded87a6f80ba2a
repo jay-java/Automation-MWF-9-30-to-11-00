@@ -1,0 +1,16 @@
+package core;
+
+abstract class RBI{
+	abstract public void SA();//abstract method
+}
+class SBI extends RBI{
+	
+}
+class JAVA extends RBI{
+	
+}
+public class P017_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

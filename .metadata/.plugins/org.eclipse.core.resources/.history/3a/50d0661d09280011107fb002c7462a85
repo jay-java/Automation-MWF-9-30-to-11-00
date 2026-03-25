@@ -1,0 +1,18 @@
+package core;
+
+interface inter1{
+	public void interface1Method();
+}
+interface inter2 extends inter1{
+	public void interface2Method();
+}
+interface inter3{
+	public void interface3Method();
+}
+
+
+public class P018_Interface {
+	public static void main(String[] args) {
+		
+	}
+}
