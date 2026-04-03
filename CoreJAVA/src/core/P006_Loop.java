@@ -36,6 +36,7 @@ public class P006_Loop {
 			System.out.println("do while decrement = " + q);
 			q--;
 		} while (q >= 1);
+		
 		// 4.for each
 	}
 }

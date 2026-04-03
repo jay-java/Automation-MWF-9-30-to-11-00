@@ -1,0 +1,49 @@
+package core;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+class XYZ{
+	public void passNum(int num) {
+		if(num > 0) {
+			System.out.println("num = "+num);
+		}
+		else {
+			throw new ArithmeticException("number is less than 0");
+		}
+	}
+}
+public class P019_Exception {
+	public static void main(String[] args) {
+		XYZ x = new XYZ();
+		x.passNum(234);
+		
+		
+		
+		
+		
+//		try {
+//			Scanner sc = new Scanner(System.in);
+//			System.out.println("enter a = ");
+//			int a = sc.nextInt();
+//
+//			System.out.println("enter b = ");
+//			int b = sc.nextInt();
+//			int c = a / b;
+//			System.out.println("c = " + c);
+//		}
+//
+//		catch (ArithmeticException e) {
+//			System.out.println("number cannot divide by zero");
+//		} catch (InputMismatchException e) {
+//			System.out.println("data should be type of numeric");
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		
+//		finally {
+//			System.out.println("this will executes everytime");
+//		}
+
+	}
+}

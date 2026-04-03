@@ -1,0 +1,15 @@
+package core;
+
+class Laptop {
+	int ram;
+	String model;
+	int storage;
+
+	
+}
+
+public class P021_ListPractical {
+	public static void main(String[] args) {
+
+	}
+}

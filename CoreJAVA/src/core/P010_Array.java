@@ -42,27 +42,26 @@ public class P010_Array {
 			}
 		}
 		if (counter > 0) {
-			System.out.println("yes "+counter+" times");
+			System.out.println("yes " + counter + " times");
 		} else {
 			System.out.println("not");
 		}
-		
+
 		int max = arr[0];
-		for(int index=1;index<arr.length;index++) {
-			if(arr[index] > max) {
+		for (int index = 1; index < arr.length; index++) {
+			if (arr[index] > max) {
 				max = arr[index];
 			}
 		}
-		System.out.println("max = "+max);
-		
-		
+		System.out.println("max = " + max);
+
 		int min = arr[0];
-		for(int index=1;index<arr.length;index++) {
-			if(arr[index] < min) {
+		for (int index = 1; index < arr.length; index++) {
+			if (arr[index] < min) {
 				min = arr[index];
 			}
 		}
-		System.out.println("min = "+min);
+		System.out.println("min = " + min);
 
 	}
 }
