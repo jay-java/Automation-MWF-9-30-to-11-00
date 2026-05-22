@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.P004_Depedency">
+      <class name="crossbrowser.CrossBrowserTest">
         <methods>
-          <include name="login"/>
-          <include name="changePassword"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.testng.P004_Depedency -->
+      </class> <!-- crossbrowser.CrossBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
