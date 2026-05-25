@@ -14,5 +14,19 @@
 			<class name="ecomm.Seller" />
 			<class name="ecomm.Cart" />
 		</classes>
+	</test>
+	<test thread-count="5" name="Test1">
+		<groups>
+			<run>
+				<include name="xyz"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ecomm.Customer" />
+			<class name="ecomm.Payment" />
+			<class name="ecomm.Product" />
+			<class name="ecomm.Seller" />
+			<class name="ecomm.Cart" />
+		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

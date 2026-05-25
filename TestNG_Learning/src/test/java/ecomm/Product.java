@@ -19,7 +19,7 @@ public class Product {
 		System.out.println("seller remove product");
 	}
 
-	@Test(groups = {"new upi"})
+	@Test(groups = { "new upi", "xyz" })
 	public void searchProduct() {
 		System.out.println("customer search product");
 	}
